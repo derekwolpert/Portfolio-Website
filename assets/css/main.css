@@ -71,12 +71,12 @@ input, select, textarea {
   --accent-5: #d2f2e9;
 } */
 
-:root {
-  --accent-1: #4A8AC6;
-  --accent-2: #5A96CD;
-  --accent-3: #6CA2D5;
-  --accent-4: #BCD4EB;
-  --accent-5: #D6E5F3;
+/* :root {
+  --accent-1: #387FC1;
+  --accent-2: #4A8CC9;
+  --accent-3: #5E99D1;
+  --accent-4: #B6D0EA;
+  --accent-5: #D2E3F2;
 
   --primary-color-main: #ffffff;
   --primary-1: #fafafa;
@@ -94,14 +94,14 @@ input, select, textarea {
   --primary-13: #555555;
   --primary-14: #222222;
   --disabled-button: rgba(0, 0, 0, 0.15);
-}
+} */
 
-/* :root {
-  --accent-1: #3374B0;
-  --accent-2: #4480B7;
-  --accent-3: #568CBE;
-  --accent-4: #A6BED5;
-  --accent-5: #BFCFDC;
+:root {
+  --accent-1: #387FC1;
+  --accent-2: #4A8CC9;
+  --accent-3: #5E99D1;
+  --accent-4: #B6D0EA;
+  --accent-5: #D2E3F2;
 
   --primary-color-main: #000000;
 
@@ -120,7 +120,7 @@ input, select, textarea {
   --primary-13: #aaaaaa;
   --primary-14: #dddddd;
   --disabled-button: rgba(255, 255, 255, 0.15);
-} */
+}
 
 /* Basic */
 html {
@@ -1743,15 +1743,15 @@ input[type="button"],
   width: 23em;
   right: 0; }
   #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-    color: var(--primary-color-main); }
+    color: #ffffff; }
     #header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-      color: var(--primary-color-main); }
+      color: #ffffff; }
   #header header p {
     color: var(--accent-4); }
   #header a {
     color: var(--accent-5); }
     #header a:hover {
-      color: var(--primary-color-main) !important; }
+      color: #ffffff !important; }
   #header > header {
     -moz-flex-shrink: 0;
     -webkit-flex-shrink: 0;
@@ -1801,7 +1801,7 @@ input[type="button"],
           -ms-transition: none;
           transition: none;
           border: 0;
-          color: var(--primary-color-main) !important;
+          color: #ffffff !important;
           display: block;
           padding: 0.85em 0;
           text-decoration: none; }
