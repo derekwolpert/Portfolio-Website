@@ -71,12 +71,12 @@ input, select, textarea {
   --accent-5: #d2f2e9;
 } */
 
-/* :root {
-  --accent-1: #387FC1;
-  --accent-2: #4A8CC9;
-  --accent-3: #5E99D1;
-  --accent-4: #B6D0EA;
-  --accent-5: #D2E3F2;
+:root {
+  --accent-1: #38A1C1;
+  --accent-2: #4AABC9;
+  --accent-3: #5EB6D1;
+  --accent-4: #B6DDEA;
+  --accent-5: #D2EBF2;
 
   --primary-color-main: #ffffff;
   --primary-1: #fafafa;
@@ -94,14 +94,14 @@ input, select, textarea {
   --primary-13: #555555;
   --primary-14: #222222;
   --disabled-button: rgba(0, 0, 0, 0.15);
-} */
+}
 
 :root {
-  --accent-1: #387FC1;
-  --accent-2: #4A8CC9;
-  --accent-3: #5E99D1;
-  --accent-4: #B6D0EA;
-  --accent-5: #D2E3F2;
+  --accent-1: #C15838;
+  --accent-2: #C9684A;
+  --accent-3: #D1785E;
+  --accent-4: #EAC3B6;
+  --accent-5: #F2D9D2;
 
   --primary-color-main: #000000;
 
