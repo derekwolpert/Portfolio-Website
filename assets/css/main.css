@@ -1727,7 +1727,6 @@ input[type="button"],
   overflow-y: auto;
   position: fixed;
   text-align: center;
-  top: 0;
   width: 23em;
   right: 0; }
   #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -1922,9 +1921,10 @@ input:checked + .slider:before {
     font-size: 13pt; }
   /* Header */
   #header {
-    width: 21em; }
+    width: 21em;
+    top: 44px }
     #header > header {
-      padding: calc(2em + 44px) 2em 2em; }
+      padding: 2em; }
     #header > footer {
       padding: 1.5em; }
   /* Wrapper */
@@ -2000,9 +2000,6 @@ input:checked + .slider:before {
     -ms-transform: translateX(23em);
     transform: translateX(23em);
     right: 0; }
-    #header > header {
-      padding: 2em;
-    }
     #header > footer {
       bottom: auto;
       left: auto;
