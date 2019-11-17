@@ -1,7 +1,5 @@
 /node_modules
-/images/avatar.jpg
-/images/banner.jpg
-/images/pic*
+/images
 .DS_Store
 README.txt
 LICENSE.txt
