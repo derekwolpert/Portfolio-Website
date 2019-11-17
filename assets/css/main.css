@@ -86,7 +86,7 @@ input, select, textarea {
   --disabled-button: rgba(0, 0, 0, 0.15);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --accent-1: #1A4A58;
     --accent-2: #224E5C;
@@ -134,7 +134,7 @@ input, select, textarea {
   --primary-13: #555555;
   --primary-14: #222222;
   --disabled-button: rgba(0, 0, 0, 0.15);
-}
+} */
 
 [data-theme="dark"] {
   --accent-1: #1A4A58;
@@ -2095,10 +2095,10 @@ input:checked + .slider:before {
 }
 
 .image.main {
-    background: -webkit-linear-gradient(135deg, var(--primary-color-main), var(--accent-2));
-    background: -moz-linear-gradient(135deg, var(--primary-color-main), var(--accent-2));
-    background: -o-linear-gradient(135deg, var(--primary-color-main), var(--accent-2));
-    background: linear-gradient(135deg, var(--primary-color-main), var(--accent-2));
+    background: -webkit-linear-gradient(135deg, var(--primary-color-main), var(--accent-1));
+    background: -moz-linear-gradient(135deg, var(--primary-color-main), var(--accent-1));
+    background: -o-linear-gradient(135deg, var(--primary-color-main), var(--accent-1));
+    background: linear-gradient(135deg, var(--primary-color-main), var(--accent-1));
     -webkit-transition: background 0.2s ease-in-out;  
     -moz-transition: background 0.2s ease-in-out;  
     -o-transition: background 0.2s ease-in-out;  
