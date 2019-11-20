@@ -1,4 +1,5 @@
 @import url("fontawesome-all.min.css");
+@import url("devicon.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 /*
 	Read Only by HTML5 UP
@@ -110,7 +111,6 @@ input, select, textarea {
     --primary-14: #dddddd;
     --disabled-button: rgba(255, 255, 255, 0.15);
   }
-
 }
 
 [theme-mode="light"] {
@@ -1460,6 +1460,17 @@ input[type="radio"] + label:before {
     .image.fit img {
       display: block;
       width: 100%; }
+    .col-2 .image.fit img {
+      width: 80%;
+      margin: auto; }
+    .image.fit h4 {
+      text-align: center;
+      vertical-align: bottom;
+      line-height: 1em;
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+      max-height: 1.75em;
+    }
   .image.avatar {
     border-radius: 100%;
     overflow: hidden; }
@@ -1469,7 +1480,7 @@ input[type="radio"] + label:before {
       width: 100%; }
   .image.main {
     display: block;
-    height: 20em;
+    height: 10em;
     border-radius: 0; }
     .image.main img {
       border-radius: 0;
@@ -1973,7 +1984,8 @@ input[type="button"],
   background: transparent;
   color: #D2EBF2;
   position: absolute;
-  width: 23em;
+  width: auto;
+  min-width: 320px;
   height: auto;
   margin: 0 auto;
   left: 0;
@@ -2173,6 +2185,16 @@ input:checked + .slider:before {
   margin-left: 16px;
 }
 
+.col-2 {
+  height: min-content;
+}
+.col-2 img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
 /* XLarge */
 @media screen and (max-width: 1680px) {
   /* Basic */
@@ -2365,7 +2387,8 @@ input:checked + .slider:before {
   /* Small Header */
   #smallHeader {
     display: block;
-  } }
+  }
+}
 
 
 /* Small */
@@ -2473,6 +2496,9 @@ input:checked + .slider:before {
       #smallHeader > header br {
         display: block;
       }
+    .row > .col-2 {
+      width: 25%
+    }
   }
 
 /* XSmall */
@@ -2511,14 +2537,20 @@ input:checked + .slider:before {
   .button {
     padding: 0; }
   #titleBar > .title > em {
-  display: none;} }
+  display: none;}
+  .row > .col-2 {
+    width: 33.33333%
+  }
+
+}
 
 
 @media screen and (max-width: 320px) {
   /* Theme Switch */
   .theme-switch-wrapper {
-    left: 191px;
+    left: 177px;
     white-space: nowrap;
+    display: inline-table;
   }
 }
 
