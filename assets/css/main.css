@@ -2543,9 +2543,6 @@ input:checked + .slider:before {
       padding: 0.5625em 0 0 0; }
       ul.actions.small li:first-child {
         padding-top: 0; }
-  ul.feature-icons li {
-    display: block;
-    width: 100%; }
   /* Button */
   input[type="submit"],
   input[type="reset"],
