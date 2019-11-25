@@ -1566,7 +1566,7 @@ ul.actions {
         width: 100%; }
     ul.actions.fit.stacked {
       width: 100%; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 740px) {
     ul.actions:not(.fixed) {
       -moz-flex-direction: column;
       -webkit-flex-direction: column;
@@ -2513,7 +2513,7 @@ input:checked + .slider:before {
   }
 
 /* XSmall */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 736px) {
   /* Basic */
   html, body {
     min-width: 320px; }
