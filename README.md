@@ -35,6 +35,6 @@ document.getElementById('theme-switch').addEventListener('change', (e) => {
 
 Colors affected by the selected color mode are assigned to CSS variables based on the `MediaQueryList` value for `"prefers-color-scheme"`. If the page’s theme toggle switch has been adjusted, the value of the `theme-mode` root element is used to determine the colors instead.
 
-If you want to learn more about how to implement a dynamic dark mode on your own website check out the resources from WebKit and W3C below:
+If you want to learn more about how to implement a dynamic dark mode on your own website check out the following resources from WebKit and W3C:
 
 <a href="https://webkit.org/blog/8840/dark-mode-support-in-webkit/" target="_blank">Dark Mode Support in WebKit</a> | <a href="https://drafts.csswg.org/css-color-adjust-1/" target="_blank">CSS Color Adjustment Module Level 1</a>
