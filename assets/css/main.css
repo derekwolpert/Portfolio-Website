@@ -1635,7 +1635,7 @@ ul.feature-icons {
     ul.feature-icons li:before {
       background: var(--accent-2);
       border-radius: 100%;
-      color: var(--primary-color-main);
+      color: #ffffff;
       -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -1823,7 +1823,7 @@ input[type="button"],
   input[type="button"].primary,
   .button.primary {
     background-color: var(--accent-2);
-    color: var(--primary-color-main) !important;
+    color: #ffffff !important;
     -moz-transition: background-color .2s ease-in-out, color .2s ease-in-out;
     -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
     -ms-transition: background-color .2s ease-in-out, color .2s ease-in-out;
